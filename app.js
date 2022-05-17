@@ -17,6 +17,7 @@ countryChange.addEventListener("change", function(){
 // const nameChange = function(event){
 //      name = event.target.value;
 //      changeInput();
+//yo
 // };
 
 // const countryChange = function(event){
