@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(127, 249, 255);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bird  {
+    width: 8rem;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+ 
