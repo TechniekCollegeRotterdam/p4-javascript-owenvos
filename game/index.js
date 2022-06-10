@@ -6,20 +6,26 @@ const c = canvas.getContext('2d')
 canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 
-class player{
-constructor(){
-    this.position = {
-        x: 100,
-        y: 100
+class Player {
+    constructor() {
+        this.position = {
+            x: 100,
+            y: 100
+        }
+        this.velocity = {
+            x: 0,
+            y: 1
+        }
+
+        this.width = 30
+        this.height = 30
     }
-    this.width = 100
-    this.height = 100
-}
-draw(){
-    c.fillRect(this.position.x, this.position.y, this.width, this.height)
-}
+    draw() {
+        c.fillStyle = 'red'
+        c.fillRect(this.position.x, this.position.y, this.width, this.height)
+    }
 
 }
 
-const player = new player()
-    player.draw()
+const player = new Player()
+player.draw()
