@@ -1,3 +1,12 @@
+//Tips:
+//Maak gebruik van de andere manier om functies te maken
+//Maak meer gebruik van comments
+//In je index.html heb je de style tag gebruikt, maak gebruik van een style.css bestand in plaats van de style tag
+//Tops:
+//Goed gebruik van canvas
+//Goede manier van variabelen aanmaken gebruikt
+//In je index.html heb je de juiste manier van je JS linken gebruikt
+
 //ik haal hier canvas op en sla het op in een variable
 const canvas = document.querySelector('canvas')
 
