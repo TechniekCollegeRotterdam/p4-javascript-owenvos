@@ -1,3 +1,6 @@
+import platform from './img/platform.png';
+console.log(platform);
+
 //ik haal hier canvas op en sla het op in een variable
 const canvas = document.querySelector('canvas')
 
